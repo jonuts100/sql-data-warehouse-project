@@ -34,7 +34,7 @@ I implemented the **Medallion Architecture** with three layers:
 ---
 
 ## 📂 Repository Structure  
-
+```
 data-warehouse-project/
 │
 ├── datasets/ # Raw datasets (ERP and CRM)
@@ -56,7 +56,7 @@ data-warehouse-project/
 ├── LICENSE # License info
 └── requirements.txt # Dependencies
 
-
+```
 ---
 
 ## 🚀 Project Requirements  
