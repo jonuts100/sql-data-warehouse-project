@@ -8,8 +8,8 @@ The project takes raw data from multiple sources, processes it through **ETL pip
 ## 🏗️ Data Architecture  
 I implemented the **Medallion Architecture** with three layers:  
 
-- **🥉 Bronze Layer** – Raw data ingestion from CSV files into SQL Server.  
-- **🥈 Silver Layer** – Data cleansing, standardization, and normalization.  
+- **🥉 Bronze Layer** – Raw data full-load ingestion from CSV files into SQL Server. 
+- **🥈 Silver Layer** – Data cleansing, standardization, integration, deduplication, etc.  
 - **🥇 Gold Layer** – Business-ready data modeled into a **star schema** for analytics.  
 
 ---
@@ -19,8 +19,6 @@ I implemented the **Medallion Architecture** with three layers:
 - **Data Architecture**: Designed a warehouse using Bronze, Silver, and Gold layers.  
 - **ETL Pipelines**: Built extraction, transformation, and loading processes.  
 - **Data Modeling**: Developed fact and dimension tables optimized for queries.  
-- **Analytics & Reporting**: Wrote SQL reports to analyze customer behavior, product performance, and sales trends.  
-
 ---
 
 ## 🎯 Skills Demonstrated  
